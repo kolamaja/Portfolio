@@ -15,13 +15,13 @@ export const Footer = () => {
 						<h1 className='text-xl text-almostWhite-500 pb-2'>Social</h1>
 						<div className='flex flex-row'>
 							<div className='flex flex-col space-y-3 text-2xl  text-clay-500'>
-								<a className='hover:text-clay-400' href='www.google.pl'>
+								<a className='hover:text-clay-400' href='https://www.linkedin.com/in/mikołaj-niedźwiecki-426a80211/'>
 									<FaLinkedin />
 								</a>
-								<a className='hover:text-clay-400' href='www.google.pl'>
+								<a className='hover:text-clay-400' href='https://github.com/kolamaja/Portfolio'>
 									<FaGithub />
 								</a>
-								<a className='hover:text-clay-400' href='www.google.pl'>
+								<a className='hover:text-clay-400' href='https://www.facebook.com/profile.php?id=100003771045734'>
 									<FaFacebookSquare />
 								</a>
 							</div>
@@ -65,7 +65,7 @@ export const Footer = () => {
 							</a>
 						</div>
 						<div className='flex flex-col space-y-6 px-2 text-almostWhite-500'>
-							<h1 className='cursor-default'>48+ 730 279 733</h1>
+							<h1 className='cursor-default'>+48 730 279 733</h1>
 							<h1 className='cursor-default'>
 								mikolaj.niedzwiecki99@gmail.com
 							</h1>

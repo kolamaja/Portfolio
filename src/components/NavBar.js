@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Logo from "../img/MN.png";
 const NavBar = () => {
 	return (
@@ -6,21 +7,21 @@ const NavBar = () => {
 			<div className='relative container mx-auto p-2'>
 				<div className='flex items-center justify-between'>
 					<div className='pt-2'>
-						<img className='h-16 hover:fill-white' src={Logo} alt='' />
+						<img className='h-16 ' src={Logo} alt='Logo' />
 					</div>
 					<div className='flex space-x-9 text-xl'>
-						<a className='hover:text-almostWhite-600' href='www.google.pl'>
+						<Link to={"/"} className='hover:text-almostWhite-600' >
 							Home
-						</a>
-						<a className='hover:text-almostWhite-600' href='www.google.pl'>
+						</Link>
+						<Link to={"/about"} className='hover:text-almostWhite-600'>
 							About me
-						</a>
-						<a className='hover:text-almostWhite-600' href='www.google.pl'>
+						</Link>
+						<Link to={"/portfolio"} className='hover:text-almostWhite-600'>
 							My portfolio
-						</a>
-						<a className='hover:text-almostWhite-600' href='www.google.pl'>
+						</Link>
+						<Link to={"/contact"} className='hover:text-almostWhite-600' >
 							Contact
-						</a>
+						</Link>
 					</div>
 				</div>
 			</div>

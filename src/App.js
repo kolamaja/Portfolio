@@ -1,16 +1,17 @@
-import NavBar from "./components/NavBar";
-import { Footer } from "./components/Footer";
-import { Home } from "./components/Home";
+
+import { Routes, Route } from "react-router-dom";
+import { About } from "./Pages/About";
+import { Home } from "./Pages/Home";
 
 function App() {
 	return (
-		<div className='flex flex-col justify-between h-screen '>
-			<NavBar />
-
-			<Home />
-			<section></section>
-			<Footer />
-		</div>
+		<Routes>
+			<Route  path="/" element={<Home />} />
+			<Route path="/about" element={<About />}/>
+			
+			
+		
+		</Routes>
 	);
 }
 

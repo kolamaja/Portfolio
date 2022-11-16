@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Home = () => {
+export const Main = () => {
 	return (
 		<div className='container mx-auto '>
 			<div className='flex flex-row items-center space-x-6 mt-10 px-8 py-8 '>
