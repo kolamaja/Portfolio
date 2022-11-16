@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaSchool, FaWrench } from 'react-icons/fa'
+import { FaSchool } from 'react-icons/fa'
 import { MdSchool } from 'react-icons/md'
 
 import { Footer } from '../components/Footer'
