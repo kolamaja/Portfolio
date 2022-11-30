@@ -9,8 +9,9 @@ export const About = () => {
   return (
     <div className="flex flex-col justify-between h-screen ">
       <NavBar />
+      
+      <Education  />
       <Technologies />
-      <Education />
       <Footer />
     </div>
   );

@@ -6,7 +6,8 @@ import KUL from "../img/KUL.png";
 
 export const Education = () => {
 	return (
-		<div className='container mx-auto'>
+		<div className="bg-education bg-cover bg-top shadow-md  bg-no-repeat">
+		<div className='container   drop-shadow-md mt-10 pb-10 pt-4 mx-auto'>
 			<div className='flex flex-col'>
 				<div className='flex flex-row justify-center p-2'>
 					<h1 className='text-6xl text-clay-500'> Education</h1>
@@ -31,7 +32,7 @@ export const Education = () => {
 					<div class='flex-grow border-t border-clay-400'></div>
 				</div>
 
-				<div className='flex relative flex-row  py-6 justify-evenly items-center'>
+				<div className='flex relative flex-row px-2 py-6 justify-evenly items-center'>
 					<div className='  group flex flex-col items-center'>
 						<div
 							className='absolute -top-20 hidden group-hover:inline-flex pl-6 items-center z-40 justify-center
@@ -73,8 +74,8 @@ export const Education = () => {
 						<h1 className='text-xl '>Bachelor's degree in IT</h1>
 					</div>
 				</div>
-				<div className='flex flex-row justify-evenly items-center'></div>
 			</div>
+		</div>
 		</div>
 	);
 };

@@ -3,6 +3,9 @@ module.exports = {
 	content: ["./src/**/*.{js,jsx,ts,tsx}"],
 	theme: {
 		extend: {
+			backgroundImage: {
+				education: "url('/src/img/2.svg')",
+			},
 			colors: {
 				clay: {
 					100: "#e8e7df",
