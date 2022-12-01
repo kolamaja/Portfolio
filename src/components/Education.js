@@ -5,9 +5,11 @@ import ZST from "../img/ZST.jpg";
 import KUL from "../img/KUL.png";
 
 export const Education = () => {
+	
+	
 	return (
-		<div className="bg-education bg-cover bg-top shadow-md  bg-no-repeat">
-		<div className='container   drop-shadow-md mt-10 pb-10 pt-4 mx-auto'>
+		<div className="bg-education rounded-b-3xl bg-cover bg-top shadow-md  bg-no-repeat">
+		<div className='container   drop-shadow-sm mt-10 pb-10 pt-4 mx-auto'>
 			<div className='flex flex-col'>
 				<div className='flex flex-row justify-center p-2'>
 					<h1 className='text-6xl text-clay-500'> Education</h1>
@@ -32,8 +34,8 @@ export const Education = () => {
 					<div class='flex-grow border-t border-clay-400'></div>
 				</div>
 
-				<div className='flex relative flex-row px-2 py-6 justify-evenly items-center'>
-					<div className='  group flex flex-col items-center'>
+				<div className='flex group/all relative flex-row px-2 py-6 justify-evenly items-center'>
+					<div className='  group  flex flex-col items-center'>
 						<div
 							className='absolute -top-20 hidden group-hover:inline-flex pl-6 items-center z-40 justify-center
                bg-almostWhite-500 border-2 border-clay-500 shadow-lg shadow-elephant-500'>
@@ -48,10 +50,10 @@ export const Education = () => {
 							</div>
 							<img className='w-32 h-32 p-3' src={ZST} alt='' />
 						</div>
-						<h1 className='text-8xl  text-clay-500'>
+						<h1 className='text-8xl group-hover/all:scale-110 group-hover/all:text-elephant-400 text-clay-500'>
 							<FaSchool />
 						</h1>
-						<h1 className='text-xl text-elephant-500'>Technical IT school</h1>
+						<h1 className='text-xl group-hover/all:scale-110 text-elephant-500'>Technical IT school</h1>
 					</div>
 					<div className='group flex flex-col text-elephant-500 items-center'>
 						<div
@@ -68,10 +70,10 @@ export const Education = () => {
 							</div>
 							<img className='w-32 h-32 p-3' src={KUL} alt='' />
 						</div>
-						<h1 className='text-8xl  text-clay-500'>
+						<h1 className='text-8xl group-hover/all:scale-110 group-hover/all:text-elephant-400  text-clay-500'>
 							<MdSchool />
 						</h1>
-						<h1 className='text-xl '>Bachelor's degree in IT</h1>
+						<h1 className='text-xl group-hover/all:scale-110 '>Bachelor's degree in IT</h1>
 					</div>
 				</div>
 			</div>

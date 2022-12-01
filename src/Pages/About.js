@@ -11,6 +11,7 @@ export const About = () => {
       <NavBar />
       
       <Education  />
+      
       <Technologies />
       <Footer />
     </div>
