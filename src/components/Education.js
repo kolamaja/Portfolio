@@ -50,7 +50,7 @@ export const Education = () => {
 							</div>
 							<img className='w-32 h-32 p-3' src={ZST} alt='' />
 						</div>
-						<h1 className='text-8xl group-hover/all:scale-110 group-hover/all:text-elephant-400 text-clay-500'>
+						<h1 className='text-8xl group-hover/all:scale-110 group-hover/all:text-clay-400 text-clay-500'>
 							<FaSchool />
 						</h1>
 						<h1 className='text-xl group-hover/all:scale-110 text-elephant-500'>Technical IT school</h1>
@@ -70,7 +70,7 @@ export const Education = () => {
 							</div>
 							<img className='w-32 h-32 p-3' src={KUL} alt='' />
 						</div>
-						<h1 className='text-8xl group-hover/all:scale-110 group-hover/all:text-elephant-400  text-clay-500'>
+						<h1 className='text-8xl group-hover/all:scale-110 group-hover/all:text-clay-400  text-clay-500'>
 							<MdSchool />
 						</h1>
 						<h1 className='text-xl group-hover/all:scale-110 '>Bachelor's degree in IT</h1>
