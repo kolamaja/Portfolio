@@ -5,6 +5,7 @@ import { FaEnvelope } from "react-icons/fa";
 import { FaPhoneSquareAlt } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { ImLocation2 } from "react-icons/im";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
 	return (
@@ -15,15 +16,16 @@ export const Footer = () => {
 						<h1 className='text-xl text-almostWhite-500 pb-2'>Social</h1>
 						<div className='flex flex-row'>
 							<div className='flex flex-col space-y-3 text-2xl  text-clay-500'>
-								<a className='hover:text-clay-400' href='https://www.linkedin.com/in/mikołaj-niedźwiecki-426a80211/'>
+								<a href='https://www.linkedin.com/in/mikołaj-niedźwiecki-426a80211/' className='hover:text-clay-400'>
 									<FaLinkedin />
 								</a>
-								<a className='hover:text-clay-400' href='https://github.com/kolamaja/Portfolio'>
+								<a href='https://github.com/kolamaja/Portfolio' className='hover:text-clay-400' >
 									<FaGithub />
 								</a>
-								<a className='hover:text-clay-400' href='https://www.facebook.com/profile.php?id=100003771045734'>
+								<a href='https://www.facebook.com/profile.php?id=100003771045734' className='hover:text-clay-400' >
 									<FaFacebookSquare />
 								</a>
+								
 							</div>
 							<div className='flex flex-col space-y-3 px-2 text-almostWhite-500'>
 								<h1 className='cursor-default'>Linkedin</h1>
@@ -35,18 +37,18 @@ export const Footer = () => {
 					<div className='flex flex-col space-y-3 '>
 						<h1 className='text-xl px-8  text-almostWhite-500'>Navigation</h1>
 						<div className='flex flex-col space-y-2 px-8 text-almostWhite-500'>
-							<a className='hover:text-almostWhite-600' href='www.google.pl'>
+							<Link to={'/'} className='hover:text-almostWhite-600'>
 								Home
-							</a>
-							<a className='hover:text-almostWhite-600' href='www.google.pl'>
+							</Link>
+							<Link to={'/about'} className='hover:text-almostWhite-600'>
 								About me
-							</a>
-							<a className='hover:text-almostWhite-600' href='www.google.pl'>
+							</Link>
+							<Link to={'/portfolio'} className='hover:text-almostWhite-600'>
 								My portfolio
-							</a>
-							<a className='hover:text-almostWhite-600' href='www.google.pl'>
+							</Link>
+							<Link to={'/contact'} className='hover:text-almostWhite-600'>
 								Contact
-							</a>
+							</Link>
 						</div>
 					</div>
 				</div>
@@ -54,15 +56,15 @@ export const Footer = () => {
 					<h1 className='text-xl'>Contact me!</h1>
 					<div className='flex flex-row'>
 						<div className='flex flex-col space-y-6 text-2xl  text-clay-500'>
-							<a className='hover:text-clay-400' href='www.google.pl'>
+							<Link to={'/contact'} className='hover:text-clay-400' >
 								<FaPhoneSquareAlt />
-							</a>
-							<a className='hover:text-clay-400' href='www.google.pl'>
+							</Link>
+							<Link to={'contact'} className='hover:text-clay-400' >
 								<FaEnvelope />
-							</a>
-							<a className='hover:text-clay-400' href='www.google.pl'>
+							</Link>
+							<Link to={'/contact'} className='hover:text-clay-400' >
 								<ImLocation2 />
-							</a>
+							</Link>
 						</div>
 						<div className='flex flex-col space-y-6 px-2 text-almostWhite-500'>
 							<h1 className='cursor-default'>+48 730 279 733</h1>
