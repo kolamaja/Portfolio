@@ -119,7 +119,7 @@ export const Technologies = () => {
 				</div>
 				<div className='flex flex-row justify-items-evenly drop-shadow-sm'>
 					<div className='flex flex-col max-w-md space-y-2 '>
-						<h1 className='text-clay-500 text-4xl'>{technology}</h1>
+						<h1 className='text-clay-500 text-4xl pt-5'>{technology}</h1>
 
 						<h2 className="text-xl pt-4">Experience: </h2>
 
