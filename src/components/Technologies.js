@@ -59,7 +59,7 @@ export const Technologies = () => {
 				<div className='flex flex-row justify-start'>
 					<div className='flex flex-col space-y-5 p-1 drop-shadow-sm'>
 						<div className='flex flex-row justify-start'>
-							<h1 className='text-6xl ml-6 text-clay-500'> Technologies</h1>
+							<h1 className='text-6xl ml-6 font-bold text-clay-500'> Technologies</h1>
 						</div>
 						<div className='flex flex-row ml-6 justify-start'>
 							<span className='text-lightBlue-800 text-base pl-2'>
@@ -119,7 +119,7 @@ export const Technologies = () => {
 				</div>
 				<div className='flex flex-row justify-items-evenly drop-shadow-sm'>
 					<div className='flex flex-col max-w-md space-y-2 '>
-						<h1 className='text-clay-500 text-4xl pt-5'>{technology}</h1>
+						<h1 className='text-clay-500 text-4xl pt-5 font-bold'>{technology}</h1>
 
 						<h2 className="text-xl pt-4">Experience: </h2>
 
