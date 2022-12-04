@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const Main = () => {
 	return (
@@ -13,13 +14,12 @@ export const Main = () => {
 						interdum erat eu turpis sollicitudin tempor. Aenean a erat et neque
 						placerat lobortis.
 					</span>
-					<a
-						href='www.google.pl'
+					<Link to={'/about'}
 						className='flex p-2 px-3 w-32 justify-center md:justify-start 
 							rounded-full baseline text-almostWhite-500 bg-clay-500 hover:bg-clay-400 
 							 text-center'>
 						Check me out!
-					</a>
+					</Link>
 				</div>
 				<div>
 					<img className='mt-4' src='https://picsum.photos/500/600' alt='' />
