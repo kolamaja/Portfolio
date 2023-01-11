@@ -1,30 +1,78 @@
 import React from "react";
+import { useState } from "react";
+import { FaFolderOpen, FaMailBulk, FaUserTie } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 export const Main = () => {
-	return (
-		<div className='container mx-auto '>
-			<div className='flex flex-row items-center space-x-6 mt-10 px-8 py-8 '>
-				<div className='flex flex-col mb-32 space-y-7 w-1/2'>
-					<h1 className='text-6xl text-left text-clay-500'>
-						Hi my name is Mikołaj!
-					</h1>
-					<span className='text-left text-base max-w-lg text-stone-500 my-5'>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-						interdum erat eu turpis sollicitudin tempor. Aenean a erat et neque
-						placerat lobortis.
-					</span>
-					<Link to={'/about'}
-						className='flex p-2 px-3 w-32 justify-center md:justify-start 
-							rounded-full baseline text-almostWhite-500 bg-clay-500 hover:bg-clay-400 
-							 text-center'>
-						Check me out!
-					</Link>
-				</div>
-				<div>
-					<img className='mt-4' src='https://picsum.photos/500/600' alt='' />
-				</div>
-			</div>
-		</div>
-	);
+  const [isActive, setIsActive] = useState(false);
+
+  return (
+    <div className="flex flex-col items-center justify-center w-screen h-full bg-home bg-cover  ">
+      <div className="flex flex-row justify-center bg-opacity-80 px-4 bg-elephant-600 rounded-full -translate-y-40 ">
+        <h1 className="text-clay-400 bg-opacity-100 text-opacity-100 p-2 font-bold font-serif text-2xl">
+          My name is Mikolaj
+        </h1>
+      </div>
+      <div className="flex flex-row justify-center bg-opacity-80 px-4 bg-elephant-600 rounded-full -translate-y-36 ">
+        <h1 className="text-clay-400 bg-opacity-100 text-opacity-100 p-2 font-bold font-serif text-2xl">
+          I am
+        </h1>
+      </div>
+      <div className="flex flex-row justify-center bg-opacity-80   bg-elephant-600 rounded-full -translate-y-32 ">
+        <h1 className="text-clay-400 bg-opacity-100 text-opacity-100 p-2 xl:px-6 font-bold font-serif text-2xl">
+          Junior react front-end developer
+        </h1>
+      </div>
+      <button
+        onClick={() => setIsActive(!isActive)}
+        className="flex  text-8xl group mt-10 relative cursor-default text-clay-500"
+      >
+        <div className="flex flex-col group-focus:translate-x-96 laptop:group-focus:translate-y-44 desktop:group-focus:translate-y-56 rounded-full transition group-hover:-translate-y-20 group-hover:translate-x-28 delay-300 duration-500  bg-opacity-90 cursor-pointer bg-elephant-600 border-white p-10 translate-x-16 -translate-y-8">
+          {isActive ? (
+            <Link to={"/contact"}>
+              <FaMailBulk />
+            </Link>
+          ) : (
+            <Link className="pointer-events-none" to={"/contact"}>
+              <FaMailBulk />
+            </Link>
+          )}
+        </div>
+
+        <div className=" flex flex-col desktop:group-focus:translate-y-56 laptop:group-focus:translate-y-44 rounded-full transition  absolute group-hover:translate-y-20  z-10  delay-200 duration-500 bg-opacity-90 cursor-pointer bg-elephant-600 border-white p-10">
+          {isActive ? (
+            <Link to={"/portfolio"}>
+              <FaFolderOpen />
+            </Link>
+          ) : (
+            <Link className="pointer-events-none" to={"/portfolio"}>
+              <FaFolderOpen />
+            </Link>
+          )}
+        </div>
+
+        <div className="flex flex-col group-focus:-translate-x-96 desktop:group-focus:translate-y-56 laptop:group-focus:translate-y-44 rounded-full transition absolute group-hover:-translate-y-20 group-hover:-translate-x-28 delay-150 duration-500  bg-opacity-90 cursor-pointer bg-elephant-600 border-white  -translate-x-16 -translate-y-8 p-10">
+          {isActive ? (
+            <Link to={"/about"}>
+              <FaUserTie />
+            </Link>
+          ) : (
+            <Link className="pointer-events-none" to={"/about"}>
+              <FaUserTie />
+            </Link>
+          )}
+        </div>
+
+        <h1 className="text-2xl invisible transition-all duration-500 delay-300 scale-0 rounded-full bg-opacity-80 p-2 px-4 bg-elephant-600 absolute group-focus:translate-x-96 ml-7 desktop:group-focus:translate-y-40 laptop:group-focus:translate-y-28 group-focus:visible group-focus:scale-100">
+          Contact
+        </h1>
+        <h1 className="text-2xl invisible transition-all duration-500 delay-300 scale-0 rounded-full bg-opacity-80 p-2 px-4 bg-elephant-600 absolute group-focus:-translate-x-96 ml-4 desktop:group-focus:translate-y-40 laptop:group-focus:translate-y-28 group-focus:visible group-focus:scale-100">
+          About me
+        </h1>
+        <h1 className="text-2xl invisible transition-all duration-500 delay-300 scale-0 rounded-full bg-opacity-80 p-2 px-4 bg-elephant-600 absolute ml-6 desktop:group-focus:translate-y-40 laptop:group-focus:translate-y-28 group-focus:visible group-focus:scale-100">
+          Portfolio
+        </h1>
+      </button>
+    </div>
+  );
 };

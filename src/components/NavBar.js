@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 import Logo from "../img/MN.png";
 const NavBar = () => {
 	return (
-		<nav className='shadow-xl bg-clay-500 text-almostWhite-500'>
-			<div className='relative container mx-auto p-2'>
-				<div className='flex items-center justify-between'>
+		<nav className='shadow-xl px-10 bg-clay-500 text-almostWhite-500'>
+			<div className='relative container mx-auto  p-2'>
+				<div className='flex  items-center justify-between'>
 					<div className='pt-2'>
 						<Link to={"/"}><img className='h-16 ' src={Logo} alt='Logo' /></Link>
 					</div>

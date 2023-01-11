@@ -7,8 +7,8 @@ import { Technologies } from "../components/Technologies";
 
 export const About = () => {
   return (
-    <div className="flex flex-col justify-between h-screen ">
-      <NavBar />
+    <div className="flex flex-col justify-between h-full ">
+      <NavBar  />
       
       <Education  />
       
