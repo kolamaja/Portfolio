@@ -124,7 +124,7 @@ export const Technologies = () => {
 						<h2 className="text-xl pt-4">Experience: </h2>
 
 						<p className="text-lg text-lightBlue-800">{text}</p>
-						<h2 className="text-xl pt-4">Likeability: </h2>
+						<h2 className="text-xl pt-4">Familiarity: </h2>
 						<div className='flex flex-row text-3xl drop-shadow-sm text-clay-500 space-x-2'>
 							{hearts()}
 						</div>
