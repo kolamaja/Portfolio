@@ -54,8 +54,8 @@ export const Technologies = () => {
 	};
 
 	return (
-		<div className='container shadow-md bg-almostWhite-300 rounded-md py-16 my-10 mx-auto'>
-			<div className='flex flex-row justify-around '>
+		<div className='container   mx-auto'>
+			<div className='flex flex-row justify-around mx-10 py-16 my-10 shadow-md rounded-md bg-almostWhite-300  '>
 				<div className='flex flex-row justify-start'>
 					<div className='flex flex-col space-y-5 p-1 drop-shadow-sm'>
 						<div className='flex flex-row justify-start'>

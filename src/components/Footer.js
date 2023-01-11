@@ -9,8 +9,9 @@ import { Link } from "react-router-dom";
 
 export const Footer = () => {
 	return (
-		<footer className='bg-elephant-500'>
-			<div className='container flex flex-row justify-between  py-12 px-8 mx-auto mt md:space-y-0'>
+		<footer className='bg-elephant-500 '>
+			<div className='container  mx-auto '>
+				<div className="flex flex-row justify-between py-12 px-8 mx-10  md:space-y-0">
 				<div className='flex flex-row '>
 					<div className='flex flex-col space-y-3  '>
 						<h1 className='text-xl text-almostWhite-500 pb-2'>Social</h1>
@@ -74,6 +75,7 @@ export const Footer = () => {
 							<h1 className='cursor-default'>Wrocław</h1>
 						</div>
 					</div>
+				</div>
 				</div>
 			</div>
 			<div className='bg-elephant-600 flex flex-col  justify-center text-center'>
