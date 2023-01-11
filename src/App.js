@@ -5,6 +5,7 @@ import { Contact } from "./Pages/Contact";
 import { Home } from "./Pages/Home";
 import { PageNotFound } from "./Pages/PageNotFound";
 import { Portfolio } from "./Pages/Portfolio";
+import { DistributorLoader } from "./Pages/DistributorLoader";
 
 function App() {
 	return (
@@ -13,6 +14,7 @@ function App() {
 			<Route path="/about" element={<About />}/>
 			<Route path="/portfolio" element={<Portfolio />}/>
 			<Route path="/contact" element={<Contact />}/>
+			<Route path="/distributor" element={<DistributorLoader/>}/>
 			<Route path="*" element={<PageNotFound />}/>
 			
 			

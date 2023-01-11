@@ -12,7 +12,7 @@ export const Portfolio = () => {
             <div className="container mx-auto">
 			<div className='flex flex-row mt-6 mb-8 mx-28 justify-evenly flex-wrap    '>
                 <Link to={'/'}><PortfolioElement img={porf1} title="My portfolio website" tag1="#React" tag2="#HTML5" tag3="#Tailwind" tag4="#JavaScript" /></Link>
-                <Link to={'*'}><PortfolioElement img={'https://picsum.photos/600/430'} title="Application 1" tag1="#React" tag2="#HTML5" tag3="#Tailwind" tag4="#JavaScript" /></Link>
+                <Link to={'/distributor'}><PortfolioElement img={'https://picsum.photos/600/430'} title="Distributor Loader" tag1="#React" tag2="#HTML5" tag3="#Tailwind" tag4="#JavaScript" /></Link>
                 <Link to={'*'}><PortfolioElement img={'https://picsum.photos/900/640'} title="Application 2" tag1="#React" tag2="#HTML5" tag3="#CSS3" tag4="#JavaScript" /></Link>
                 <Link to={'*'}><PortfolioElement img={'https://picsum.photos/800/640'} title="Application 3" tag1="#Angular" tag2="#HTML5" tag3="#Tailwind" tag4="#JavaScript" /></Link>
                 

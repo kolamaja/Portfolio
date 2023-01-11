@@ -52,7 +52,7 @@ export const Education = () => {
               <h1 className="text-8xl group-hover/all:scale-110 group-hover/all:text-clay-400 text-clay-500">
                 <FaSchool />
               </h1>
-              <h1 className="text-xl group-hover/all:scale-110 text-elephant-500">
+              <h1 className="text-lg text-almostWhite-100 group-hover/all:scale-110 bg-elephant-700 bg-opacity-60 rounded-full my-1 py-1 px-2 ">
                 Technical IT school
               </h1>
             </div>
@@ -75,7 +75,7 @@ export const Education = () => {
               <h1 className="text-8xl group-hover/all:scale-110 group-hover/all:text-clay-400  text-clay-500">
                 <MdSchool />
               </h1>
-              <h1 className="text-xl group-hover/all:scale-110 ">
+              <h1 className="text-lg text-almostWhite-100 group-hover/all:scale-110  bg-elephant-700 bg-opacity-60 rounded-full  py-1 px-2">
                 Bachelor's degree in IT
               </h1>
             </div>
