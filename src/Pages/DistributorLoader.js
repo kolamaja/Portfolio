@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 export const DistributorLoader = () => {
   return (
     <div className="container mx-auto ">
-      <Link to={"/"}><button className="bg-clay-500 p-2 m-4 rounded-full text-almostWhite-500">Go back</button></Link>
+      <Link to={"/portfolio"}><button className="bg-clay-500 p-2 m-4 rounded-full text-almostWhite-500">Go back</button></Link>
       <div className="flex flex-col my-10 justify-center items-center">
         <h1 className="text-2xl my-6">Work in progres</h1>
         <p className="max-w-md text-lg">
