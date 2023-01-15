@@ -11,10 +11,10 @@ export const Footer = () => {
   return (
     <footer className="bg-elephant-500 ">
       <div className="container  mx-auto ">
-        <div className="flex flex-row justify-between py-12 px-8 mx-10  md:space-y-0">
-          <div className="flex flex-row ">
+        <div className="flex flex-col lg:flex-row justify-start lg:justify-between py-12 lg:px-8 px-0 lg:mx-10 mx-8 md:space-y-0">
+          <div className="flex flex-col lg:flex-row ">
             <div className="flex flex-col space-y-3  ">
-              <h1 className="text-xl text-almostWhite-500 pb-2">Social</h1>
+              <h1 className="text-xl text-almostWhite-500 pb-2 font-bold">Social</h1>
               <div className="flex flex-row">
                 <div className="flex flex-col space-y-3 text-2xl  text-clay-500">
                   <FaLinkedin />
@@ -46,8 +46,8 @@ export const Footer = () => {
               </div>
             </div>
             <div className="flex flex-col space-y-3 ">
-              <h1 className="text-xl px-8  text-almostWhite-500">Navigation</h1>
-              <div className="flex flex-col space-y-2 px-8 text-almostWhite-500">
+              <h1 className="text-xl lg:px-8 px-0 mt-4 lg:mt-0 text-almostWhite-500 font-bold">Navigation</h1>
+              <div className="flex flex-col space-y-2 lg:px-8 text-almostWhite-500">
                 <Link to={"/"} className="hover:text-almostWhite-600">
                   Home
                 </Link>
@@ -63,8 +63,8 @@ export const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col space-y-3 text-almostWhite-500">
-            <h1 className="text-xl">Contact me!</h1>
+          <div className="flex flex-col space-y-3 mt-4 lg:mt-0 text-almostWhite-500">
+            <h1 className="text-xl font-bold">Contact me!</h1>
             <div className="flex flex-row">
               <div className="flex flex-col space-y-6 text-2xl  text-clay-500">
                 <Link to={"/contact"} className="hover:text-clay-400">
@@ -88,7 +88,7 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="bg-elephant-600 flex flex-col  justify-center text-center">
+      <div className="bg-elephant-600 flex flex-col text-gray-600  justify-center text-center">
         <p>Copyright &copy; 2022, All Rights Reserved</p>
       </div>
     </footer>

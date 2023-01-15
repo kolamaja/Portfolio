@@ -5,7 +5,7 @@ import { FaBars } from "react-icons/fa";
 const NavBar = () => {
   const [mobileList, setMobileList] = useState(false);
   return (
-    <nav className="shadow-xl px-10 z-30 bg-clay-500 text-almostWhite-500">
+    <nav className="shadow-xl px-10 z-30  bg-clay-500 text-almostWhite-500">
       <div className="relative container mx-auto  p-2">
         <div className="flex  items-center justify-between">
           <div className="pt-2">
@@ -35,7 +35,7 @@ const NavBar = () => {
           </div>
         </div>
         {mobileList ? (
-          <div className=" absolute right-6 left-6  flex flex-col mt-2  space-y-6 py-5 px-2  rounded-2xl shadow-lg text-black text-lg items-start bg-almostWhite-200 border-opacity-80 border-2 border-elephant-500">
+          <div className=" absolute right-2 left-2  flex flex-col mt-2  space-y-6 py-5 px-3  rounded-2xl shadow-lg text-black text-lg items-start bg-almostWhite-200 border-opacity-80 border-2 border-elephant-500">
             <Link to={"/"} className=" shadow-md w-full font-semibold px-2  bg-lightBlue-100 focus:bg-lightBlue-200">
               Home
             </Link>
