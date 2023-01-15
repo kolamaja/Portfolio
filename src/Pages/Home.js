@@ -5,7 +5,7 @@ import { Main } from '../components/Main'
 
 export const Home = () => {
   return (
-    <div className='flex flex-col justify-between  '>
+    <div className='flex flex-col h-screen justify-between  '>
         
         <Main />
         
