@@ -66,7 +66,7 @@ export const Main = () => {
         <h1 className="lg:text-2xl text-base invisible transition-all duration-500 delay-300 scale-0 rounded-full bg-opacity-80 p-1 lg:p-2 px-3 lg:px-4 bg-elephant-600 absolute translate-y-36 translate-x-24 lg:group-focus:translate-x-96 ml-9 lg:ml-7 desktop:group-focus:translate-y-40 laptop:group-focus:translate-y-28 group-focus:visible group-focus:scale-100">
           Contact
         </h1>
-        <h1 className="lg:text-2xl text-base invisible transition-all duration-500 delay-300 scale-0 rounded-full bg-opacity-80 p-1 lg:p-2 px-3 lg:px-4 bg-elephant-600 absolute translate-y-36 -translate-x-32 lg:group-focus:-translate-x-96 ml-2 lg:ml-4 desktop:group-focus:translate-y-40 laptop:group-focus:translate-y-28 group-focus:visible group-focus:scale-100">
+        <h1 className="lg:text-2xl text-base invisible transition-all duration-500 delay-300 scale-0 rounded-full bg-opacity-80 p-1 lg:p-2 px-3 lg:px-4 bg-elephant-600 absolute translate-y-36 -translate-x-32 lg:group-focus:-translate-x-96 ml-2 lg:ml-9 desktop:group-focus:translate-y-40 laptop:group-focus:translate-y-28 group-focus:visible group-focus:scale-100">
           About
         </h1>
         <h1 className="lg:text-2xl text-base invisible transition-all duration-500 delay-300 scale-0 rounded-full bg-opacity-80 p-1 lg:p-2 px-3 lg:px-4 bg-elephant-600 absolute translate-y-36  lg:ml-6 desktop:group-focus:translate-y-40 laptop:group-focus:translate-y-28 group-focus:visible group-focus:scale-100">
