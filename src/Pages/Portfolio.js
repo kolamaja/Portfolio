@@ -12,7 +12,7 @@ export const Portfolio = () => {
     <div className="flex flex-col justify-between h-screen ">
       <NavBar />
       <div className="container mx-auto">
-        <div className="flex flex-row mt-6 mb-8 mx-28 justify-evenly flex-wrap    ">
+        <div className="flex flex-col lg:flex-row mt-6 mb-8 mx-0 lg:mx-28 justify-center items-center lg:justify-evenly lg:flex-wrap    ">
           <Link to={"/"}>
             <PortfolioElement
               img={porf1}
