@@ -85,7 +85,7 @@ export const Contact = () => {
 					</div>
 				</form>
 				<div className='flex justify-center mx-4 lg:mx-0 mt-10 mb-4 text-clay-500 text-3xl flex-col lg:flex-row'>
-					<div className='flex mr-6 lg:mb-4 mb-4 items-center'>
+					<div className='flex mr-6 lg:mb-0 mb-4 items-center'>
 						<FaPhoneSquareAlt className='' />
 						<h1 className=' pl-2 text-lg lg:text-xl text-black'>+48 730 279 733</h1>
 					</div>
