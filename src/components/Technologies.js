@@ -55,19 +55,19 @@ export const Technologies = () => {
 
 	return (
 		<div className='container   mx-auto'>
-			<div className='flex flex-row justify-around mx-10 py-16 my-10 shadow-md rounded-md bg-almostWhite-300  '>
+			<div className='flex flex-col lg:flex-row lg:justify-around justify-center items-center lg:items-start  lg:mx-10  py-16 my-10 shadow-md rounded-md bg-almostWhite-300  '>
 				<div className='flex flex-row justify-start'>
 					<div className='flex flex-col space-y-5 p-1 drop-shadow-sm'>
-						<div className='flex flex-row justify-start'>
-							<h1 className='text-6xl ml-6 font-bold text-clay-500'> Technologies</h1>
+						<div className='flex flex-row lg:justify-start justify-center'>
+							<h1 className='lg:text-6xl text-5xl  lg:ml-6 font-bold text-clay-500'> Technologies</h1>
 						</div>
-						<div className='flex flex-row ml-6 justify-start'>
-							<span className='text-lightBlue-800 text-base pl-2'>
+						<div className='flex flex-row lg:ml-6 lg:justify-start justify-center'>
+							<span className='text-lightBlue-800 text-base lg:pl-2'>
 								List of technologies I know
 							</span>
 						</div>
 
-						<div className='flex flex-row justify-center max-w-2xl  text-stone-300 py-6 flex-wrap text-9xl  '>
+						<div className='flex flex-row justify-center max-w-2xl  text-stone-300 py-6 flex-wrap lg:text-9xl text-8xl  '>
 							<button
 								autoFocus
 								onFocus={() => content("React", 5, react)}
@@ -117,15 +117,15 @@ export const Technologies = () => {
 						</div>
 					</div>
 				</div>
-				<div className='flex flex-row justify-items-evenly drop-shadow-sm'>
+				<div className='flex flex-col lg:flex-row  text-center lg:text-left lg:justify-items-evenly drop-shadow-sm'>
 					<div className='flex flex-col max-w-md space-y-2 '>
 						<h1 className='text-clay-500 text-4xl pt-5 font-bold'>{technology}</h1>
 
 						<h2 className="text-xl pt-4">Experience: </h2>
 
-						<p className="text-lg text-lightBlue-800">{text}</p>
+						<p className="lg:text-lg mx-2 lg:mx-0 text-base text-lightBlue-800">{text}</p>
 						<h2 className="text-xl pt-4">Familiarity: </h2>
-						<div className='flex flex-row text-3xl drop-shadow-sm text-clay-500 space-x-2'>
+						<div className='flex flex-row justify-center lg:justify-start text-3xl drop-shadow-sm text-clay-500 space-x-2'>
 							{hearts()}
 						</div>
 					</div>
