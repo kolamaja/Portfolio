@@ -34,14 +34,14 @@ export const Contact = () => {
 			<NavBar />
 			<div className='container mt-10 mb-10 mx-auto'>
 				<form ref={form} onSubmit={sendEmail}>
-					<div className='flex flex-row justify-center'>
+					<div className='flex flex-col lg:flex-row mx-4 lg:mx-4 justify-center'>
 						<div className='flex flex-col'>
-							<h1 className='text-3xl font-bold text-elephant-700 my-4'>
+							<h1 className='text-2xl lg:text-3xl font-bold text-elephant-700 my-4'>
 								Contact me!
 							</h1>
 							<div className='flex flex-row max-w-lg'>
 								<div className=' flex flex-col mr-24 border-b-2  border-clay-500'>
-									<h1 className='my-2 text-base'>FIRST NAME</h1>
+									<h1 className='my-2 text-sm lg:text-base'>FIRST NAME</h1>
 									<input
 										placeholder='Michael'
 										className='appearance-none shadow bg-almostWhite-400 border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none'
@@ -50,7 +50,7 @@ export const Contact = () => {
 									/>
 								</div>
 								<div className='flex flex-col border-b-2 border-clay-500'>
-									<h1 className='my-2 text-base'>LAST NAME</h1>
+									<h1 className='my-2 text-sm lg:text-base'>LAST NAME</h1>
 									<input
 										placeholder='Scott'
 										className='appearance-none shadow bg-almostWhite-400 border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none'
@@ -60,7 +60,7 @@ export const Contact = () => {
 								</div>
 							</div>
 							<div className='flex flex-col mt-2 border-b-2 max-w-lg border-clay-500'>
-								<h1 className='my-2 text-base'>EMAIL</h1>
+								<h1 className='my-2 text-sm lg:text-base'>EMAIL</h1>
 								<input
 									placeholder='michael.scott@gmail.com'
 									className='appearance-none shadow bg-almostWhite-400 border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none'
@@ -69,7 +69,7 @@ export const Contact = () => {
 								/>
 							</div>
 							<div className='flex flex-col max-w-lg mt-4'>
-								<h1 className='my-2 text-base'>MESSAGE</h1>
+								<h1 className='my-2 text-sm lg:text-base'>MESSAGE</h1>
 								<textarea
 									placeholder='I want to hire you!'
 									name='message'
@@ -84,14 +84,14 @@ export const Contact = () => {
 						</div>
 					</div>
 				</form>
-				<div className='flex justify-center mt-10 mb-4 text-clay-500 text-3xl  flex-row'>
-					<div className='flex mr-6 items-center'>
+				<div className='flex justify-center mx-4 lg:mx-0 mt-10 mb-4 text-clay-500 text-3xl flex-col lg:flex-row'>
+					<div className='flex mr-6 lg:mb-4 mb-4 items-center'>
 						<FaPhoneSquareAlt className='' />
-						<h1 className=' pl-2 text-xl text-black'>+48 730 279 733</h1>
+						<h1 className=' pl-2 text-lg lg:text-xl text-black'>+48 730 279 733</h1>
 					</div>
 					<div className='flex items-center'>
 						<FaEnvelope />
-						<h1 className='pl-3 text-xl text-black'>
+						<h1 className='pl-3 text-lg lg:text-xl text-black'>
 							mikolaj.niedzwiecki99@gmail.com
 						</h1>
 					</div>
