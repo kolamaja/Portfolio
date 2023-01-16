@@ -33,26 +33,6 @@ export const Portfolio = () => {
               tag4="#JavaScript"
             />
           </Link>
-          <Link to={"*"}>
-            <PortfolioElement
-              img={"https://picsum.photos/900/640"}
-              title="Application 2"
-              tag1="#React"
-              tag2="#HTML5"
-              tag3="#CSS3"
-              tag4="#JavaScript"
-            />
-          </Link>
-          <Link to={"*"}>
-            <PortfolioElement
-              img={"https://picsum.photos/800/640"}
-              title="Application 3"
-              tag1="#Angular"
-              tag2="#HTML5"
-              tag3="#Tailwind"
-              tag4="#JavaScript"
-            />
-          </Link>
         </div>
       </div>
       <Footer />
