@@ -2,9 +2,9 @@ import React from "react";
 
 export const PortfolioElement = (props) => {
   return (
-    <div className="flex flex-col mt-8 mx-0 lg:mx-6 hover:scale-110 rounded-lg w-auto lg:max-w-sm shadow-elephant-400   shadow-lg">
+    <div className="flex flex-col mt-8 mx-0 lg:mx-6 hover:scale-110 rounded-lg w-auto lg:max-w-lg shadow-elephant-400   shadow-lg">
       <img
-        className=" max-w-lg lg:h-80 h-52  shadow-sm  mb-4  "
+        className=" max-w-xl lg:h-80 h-52  shadow-sm  mb-4  "
         src={props.img}
         alt={props.img}
       ></img>

@@ -2,6 +2,7 @@ import React from "react";
 import { Footer } from "../components/Footer";
 import porf1 from "../img/portf1.JPG";
 import dist1 from "../img/dist1.PNG";
+import spa1 from "../img/spa1.PNG";
 
 import NavBar from "../components/NavBar";
 import { PortfolioElement } from "../components/PortfolioElement";
@@ -33,6 +34,16 @@ export const Portfolio = () => {
               tag4="#JavaScript"
             />
           </Link>
+          <a target={"_blank"} href="https://deft-kataifi-80f7ca.netlify.app/" rel="noreferrer">
+            <PortfolioElement
+              img={spa1}
+              title="SPA APP"
+              tag1="#React"
+              tag2="#HTML5"
+              tag3="#Tailwind"
+              tag4="#TypeScript"
+            />
+          </a>
         </div>
       </div>
       <Footer />
