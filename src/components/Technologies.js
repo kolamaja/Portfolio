@@ -5,6 +5,7 @@ import {
 	FaCss3,
 	FaHeart,
 	FaHtml5,
+	FaJava,
 	FaPython,
 	FaReact,
 	FaRegHeart,
@@ -33,6 +34,8 @@ export const Technologies = () => {
 		"I used Django while working on a web application in college. The framework made it easy for me to create a REST interface.";
 	const angular =
 		"I learned Angular in college. I also went through a couple of courses and worked on projects as part of my studies. I used Angular in an internship as a fullstack developer.";
+	const java =
+		"Java has accompanied me since the beginning of my studies. I got to know it more deeply during my internship and during the automation tester course. I mainly use java with the selenium library.";
 	const content = (tech, hearts, p) => {
 		setTechnology(tech);
 		setHeart(hearts);
@@ -113,6 +116,11 @@ export const Technologies = () => {
 								onFocus={() => content("Angular", 2, angular)}
 								className='hover:text-clay-500 hover:scale-110 focus:scale-110  focus:text-clay-500   '>
 								<FaAngular className='p-4' />
+							</button>
+							<button
+								onFocus={() => content("Java", 5, java)}
+								className='hover:text-clay-500 hover:scale-110 focus:scale-110  focus:text-clay-500   '>
+								<FaJava  className="p-4"/>
 							</button>
 						</div>
 					</div>
